@@ -116,10 +116,17 @@ body {
     letter-spacing: 0.5px;
 }
 
+.heading-tertiary {
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    font-size: 4.2rem;
+    margin-bottom: 3.2rem;
+    text-align: center;
+}
+
 .subheading {
     display: block;
     text-align: center;
-
     font-size: 1.8rem;
     font-weight: 600;
     color: #075985;
@@ -152,4 +159,20 @@ body {
     background-color: #0369a1;
     text-shadow: 0 0 0.65px #ddd;
     box-shadow: inset 0 0 0 3px #111;
+}
+
+.icon {
+    height: 3.2rem;
+    width: 3.2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1px solid #1e293b;
+    fill: #1e293b;
+    box-shadow: 0 0 0 0.5px #0f172a;
+    background-color: #fff;
+
+    position: absolute;
+    bottom: -3%;
+    left: 50%;
+    transform: translateX(-50%);
 }
