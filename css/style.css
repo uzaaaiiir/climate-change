@@ -117,13 +117,23 @@
 
 .background-effects {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
+
+/* .box {
+    overflow: hidden;
+} */
 
 .background-effects-img {
     width: 100%;
-    /* border-radius: 65%; */
     opacity: 75%;
-    margin-bottom: 2rem;
+    transition: all 0.3s;
+}
+
+.background-effects-img:hover {
+    transform: scale(1.05);
 }
 
 .background-effects-title {
