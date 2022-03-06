@@ -100,7 +100,7 @@
 /* BACKGROUND SECTION */
 /**********************/
 .section-background {
-    padding: 4.8rem 0 3.2rem 0;
+    padding: 4.8rem 0 9.6rem 0;
 }
 
 .background-details {
@@ -148,7 +148,7 @@
 .section-problem {
     max-width: 175rem;
     margin: 0 auto;
-    padding: 12.8rem 6.4rem;
+    padding: 4.8rem 6.4rem 9.6rem;
 }
 
 .causes-box {
@@ -177,7 +177,7 @@
 /* QUOTES OF LEADERS SECTION */
 /*****************************/
 .section-quotes {
-    padding: 0 6.4rem 12.8rem;
+    padding: 4.8rem 6.4rem 9.6rem;
 }
 
 .quotes-container {
@@ -186,7 +186,7 @@
 }
 
 .quote-box:not(:last-child) {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 3.2rem 4.8rem;
 }
 
@@ -218,7 +218,7 @@
 .quote-box--last {
     grid-column: 1/-1;
     gap: 4.8rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .quote-last {
