@@ -197,7 +197,7 @@
 .quote-author {
     font-size: 1.8rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .quote-title {
@@ -228,4 +228,37 @@
 
 .author-img {
     width: 100%;
+    filter: brightness(60%);
+    filter: grayscale(80%);
+    opacity: 75%;
+}
+
+/**********************/
+/* GREY AREAS SECTION */
+/**********************/
+.section-grey-areas {
+    padding: 4.8rem 6.4rem 9.6rem;
+}
+
+.section-grey-areas .grid {
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.complexity-img-box {
+    align-self: center;
+    justify-self: center;
+}
+
+.complexity-img {
+    width: 95%;
+    filter: brightness(60%);
+    filter: grayscale(80%);
+    opacity: 75%;
+}
+
+.text-box-description {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
 }
