@@ -32,6 +32,19 @@
     margin-bottom: 6.4rem;
 }
 
+.hero-btn {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.btn--cta {
+    background-color: #0369a1;
+}
+
+.btn--cta {
+    text-shadow: 1px 1px 1px #0369a1;
+}
+
 /**********************/
 /* NAVIGATION SECTION */
 /**********************/
@@ -262,3 +275,49 @@
     font-size: 2.4rem;
     margin-bottom: 1.6rem;
 }
+
+/***********************/
+/* TAKE ACTION SECTION */
+/***********************/
+.section-take-action {
+    padding: 4.8rem 6.4rem 9.6rem;
+}
+
+.take-action-boxes {
+    column-gap: 4.8rem;
+    row-gap: 4.8rem;
+    justify-items: center;
+}
+
+.take-action-box {
+    background-color: #d0ebff;
+    font-size: 2.4rem;
+    color: #1e293b;
+    padding: 6.4rem 1.2rem 3.2rem;
+    text-align: center;
+    border-radius: 2px;
+
+    position: relative;
+    transition: all 0.3s;
+}
+
+.take-action-box:hover {
+    transform: scale(1.1);
+}
+
+.number-icon {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+
+    transform: translateX(-50%);
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.5rem 2rem;
+    background-color: #1e293b;
+    color: #fff;
+}
+
+/***************/
+/* CTA SECTION */
+/***************/
