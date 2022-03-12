@@ -291,6 +291,9 @@
 }
 
 .take-action-boxes {
+    max-width: 175rem;
+    margin: 0 auto;
+
     column-gap: 4.8rem;
     row-gap: 4.8rem;
     justify-items: center;
