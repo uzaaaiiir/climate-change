@@ -1,0 +1,73 @@
+/* 1rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/***********************************/
+/* BELOW 1397px (Smaller Desktops) */
+/***********************************/
+
+@media (max-width: 87em) {
+    /* 1397px / 16px = 87em or 87rem */
+    .hero {
+        max-width: 120rem;
+    }
+
+    .heading-primary {
+        font-size: 5.2rem;
+    }
+
+    /* .heading-secondary {
+        font-size: 4.4rem;
+    }
+
+    .heading-tertiary {
+        font-size: 3.4rem;
+    } */
+}
+
+@media (max-width: 81em) {
+    .heading-secondary {
+        font-size: 4.4rem;
+    }
+
+    .heading-tertiary {
+        font-size: 3.6rem;
+    }
+}
+
+/**********************************/
+/* BELOW 1200 (Landscape Tablets) */
+/**********************************/
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .header {
+        padding: 0 3.2rem;
+    }
+
+    .container {
+        max-width: 110rem;
+    }
+
+    .main-nav-list {
+        gap: 3.2rem;
+    }
+
+    .hero {
+        column-gap: 3.2rem;
+        max-width: 110rem;
+    }
+
+    .section-problem {
+        max-width: 120rem;
+    }
+
+    .take-action-boxes {
+        max-width: 110rem;
+    }
+
+    .quote-box--last .author-img {
+        height: 100%;
+    }
+}
