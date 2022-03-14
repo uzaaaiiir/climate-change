@@ -101,7 +101,9 @@ body {
 }
 
 .grid--footer {
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 4fr 3fr 3fr;
+    row-gap: 9.6rem;
+    column-gap: 6.4rem;
 }
 
 .heading-primary,
