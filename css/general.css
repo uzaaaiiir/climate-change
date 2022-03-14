@@ -100,6 +100,10 @@ body {
     grid-template-columns: repeat(6, 1fr);
 }
 
+.grid--footer {
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
