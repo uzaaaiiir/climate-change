@@ -70,4 +70,38 @@
     .quote-box--last .author-img {
         height: 100%;
     }
+
+    .footer {
+        padding: 9.6rem 0;
+    }
+}
+
+/**************************/
+/* BELOW 1032px (Tablets) */
+/**************************/
+
+@media (max-width: 64.5em) {
+    .causes-box {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 9.6rem;
+        row-gap: 6.4rem;
+    }
+
+    .cause-img-box {
+        width: 80%;
+        margin: 0 auto 3.2rem;
+    }
+
+    .heading-tertiary {
+        margin-bottom: 2.4rem;
+    }
+
+    .complexity-box {
+        grid-template-columns: 1fr;
+        row-gap: 3.2rem;
+    }
+
+    .complexity-img {
+        width: 100%;
+    }
 }
