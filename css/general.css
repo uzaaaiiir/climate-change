@@ -100,12 +100,6 @@ body {
     grid-template-columns: repeat(6, 1fr);
 }
 
-.grid--footer {
-    grid-template-columns: 4fr 3fr 3fr;
-    row-gap: 9.6rem;
-    column-gap: 6.4rem;
-}
-
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
