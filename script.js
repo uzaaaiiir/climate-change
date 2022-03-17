@@ -1,6 +1,14 @@
-const toggleButton = document.getElementsByClassName("bar");
-const navBarLinks = document.getElementsByClassName("main-nav-list");
+// Set Current Year
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
 
-toggleButton.addEventListener("click", () => {
-    navBarLinks.classList.toggle("active");
+////////////////////////////////////////////////
+// Make Movile Navigation Work
+
+const btnNavEl = document.querySelector(".toggle-button");
+const headerEl = document.querySelector(".header");
+
+btnNavEl.addEventListener("click", function () {
+    headerEl.classList.toggle("nav-open");
 });
