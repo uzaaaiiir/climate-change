@@ -81,6 +81,14 @@
 /**************************/
 
 @media (max-width: 64.5em) {
+    html {
+        font-size: 50%;
+    }
+
+    /* .container {
+        max-width: 100rem;
+    } */
+
     .causes-box {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 9.6rem;
@@ -88,7 +96,7 @@
     }
 
     .cause-img-box {
-        width: 80%;
+        width: 70%;
         margin: 0 auto 3.2rem;
     }
 
@@ -96,12 +104,39 @@
         margin-bottom: 2.4rem;
     }
 
-    .complexity-box {
-        grid-template-columns: 1fr;
-        row-gap: 3.2rem;
-    }
-
     .complexity-img {
         width: 100%;
+    }
+}
+
+/*************************/
+/* BELOW 900px (Tablets) */
+/*************************/
+@media (max-width: 56.25em) {
+    .quote-description {
+        font-size: 2rem;
+    }
+
+    .toggle-button {
+        display: block;
+        z-index: 9999;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main-nav {
+        width: 100%;
+    }
+
+    .main-nav-list {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-nav-list.active {
+        display: block;
     }
 }
