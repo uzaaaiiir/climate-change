@@ -109,7 +109,7 @@
     width: 0;
 }
 
-.main-nav-link:hover:after {
+.main-nav-link--underline:hover:after {
     width: 100%;
     left: 0;
 }
@@ -138,7 +138,7 @@
 /* MOBILE NAV */
 .toggle-button {
     border: none;
-    background-color: none;
+    background-color: #dbeafe;
     cursor: pointer;
 
     /* position: absolute; */
