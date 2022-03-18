@@ -154,6 +154,10 @@
     fill: #1e293b;
 }
 
+.bar[name="close"] {
+    display: none;
+}
+
 /**********************/
 /* BACKGROUND SECTION */
 /**********************/
