@@ -63,6 +63,7 @@
 
     height: 9.6rem;
     padding: 2.4rem 5.2rem;
+    position: relative;
 }
 
 .logo {
