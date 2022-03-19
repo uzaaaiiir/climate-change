@@ -96,7 +96,7 @@
     }
 
     .cause-img-box {
-        width: 70%;
+        width: 85%;
         margin: 0 auto 3.2rem;
     }
 
@@ -192,4 +192,25 @@
 /*********************************/
 
 @media (max-width: 44em) {
+    .quote-box--last {
+        display: none;
+    }
+
+    .grid-2--cols {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-3--cols {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .take-action-boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cta {
+        padding: 2.4rem 4.8rem;
+        background-repeat: no-repeat;
+        background-height
+    }
 }
