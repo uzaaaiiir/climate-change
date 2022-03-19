@@ -170,4 +170,19 @@
     .main-nav-link:visited {
         font-size: 3rem;
     }
+
+    .complexity-box {
+        grid-template-columns: 1fr;
+        row-gap: 3.2rem;
+    }
+
+    .complexity-img-box {
+        max-width: 80%;
+        align-self: center;
+        margin-bottom: 4.8rem;
+    }
+
+    .complexity-img-box:nth-child(3) {
+        grid-row: 4;
+    }
 }
