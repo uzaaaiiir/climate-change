@@ -218,6 +218,8 @@
 
     .cta {
         padding: 2.4rem 4.8rem;
-        background-repeat: no-repeat;
+        background-size: auto;
+        height: 100%;
+        width: auto;
     }
 }
