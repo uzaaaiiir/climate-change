@@ -204,6 +204,14 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .causes-box {
+        grid-template-columns: 1fr;
+    }
+
+    .cause-img-box {
+        width: 75%;
+    }
+
     .take-action-boxes {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -211,6 +219,5 @@
     .cta {
         padding: 2.4rem 4.8rem;
         background-repeat: no-repeat;
-        background-height
     }
 }
