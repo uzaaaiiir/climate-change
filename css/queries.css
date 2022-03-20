@@ -292,8 +292,13 @@
     .section-quotes,
     .section-grey-areas,
     .section-take-action {
-        padding: 4.8rem 2.4rem 9.6rem;
+        padding: 4.8rem 3.2rem 9.6rem;
     }
+
+    .section-cta {
+        padding: 0 4.8rem 9.6rem;
+    }
+
     .background-details {
         justify-items: center;
         column-gap: 2.4rem;
@@ -313,5 +318,9 @@
 
     .take-action-box {
         font-size: 2.4rem;
+    }
+
+    .footer {
+        padding: 9.6rem 0 8.4rem;
     }
 }
