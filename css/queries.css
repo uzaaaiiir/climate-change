@@ -278,3 +278,22 @@
         grid-column: span 3;
     }
 }
+
+/************************/
+/* BELOW 500px (Phones) */
+/************************/
+
+@media (max-width: 31.25em) {
+    html {
+        font-size: 45%;
+    }
+
+    .background-details {
+        justify-items: center;
+        column-gap: 2.4rem;
+    }
+
+    .cause-img-box {
+        margin-bottom: 3.2rem;
+    }
+}
