@@ -249,7 +249,7 @@
     }
 
     .cause-img-box {
-        width: 50%;
+        width: 65%;
     }
 
     .take-action-boxes {
@@ -288,6 +288,10 @@
         font-size: 45%;
     }
 
+    p {
+        font-size: 1.8rem;
+    }
+
     .background-details {
         justify-items: center;
         column-gap: 2.4rem;
@@ -295,5 +299,13 @@
 
     .cause-img-box {
         margin-bottom: 3.2rem;
+    }
+
+    .complexity-img-box {
+        max-width: 100%;
+    }
+
+    .take-action-boxes {
+        grid-template-columns: 1fr;
     }
 }
